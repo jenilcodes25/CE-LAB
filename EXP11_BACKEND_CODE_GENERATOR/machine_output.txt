@@ -1,0 +1,20 @@
+LDA a
+LDT b
+ADDR A,T
+STA t1
+
+LDA t1
+LDT c
+SUBR A,T
+STA t2
+
+LDA t2
+LDT d
+MULR A,T
+STA t3
+
+LDA t3
+LDT e
+DIVR A,T
+STA t4
+
